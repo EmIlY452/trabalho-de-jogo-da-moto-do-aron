@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+#status {
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#game {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  border: 3px solid white;
+  background-color: #8b5454; /* Cor de fundo visível */
+  overflow: hidden;
+}
+
+#moto {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  background-image: url("moto.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 10px;
+  left: 125px;
+}
+
+  
+
